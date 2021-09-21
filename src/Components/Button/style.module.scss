@@ -1,0 +1,17 @@
+.button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px transparent solid;
+  padding: 6px 15px;
+  font-size: 1.2rem;
+
+  svg{
+    margin-right: 5px;
+  }
+}
+.active{
+  border-bottom: 3px #0854bf solid;
+}
